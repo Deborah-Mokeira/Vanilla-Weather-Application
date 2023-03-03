@@ -4,7 +4,7 @@ body {
   }
   
   h1 {
-    color: #878787;
+    color: #5c4747;
     font-size: 24px;
     font-weight: 100;
     line-height: 28px;
@@ -21,7 +21,7 @@ body {
     margin: 0;
     padding: 0;
   
-    color: rgb(135, 135, 135);
+    color: rgb(87, 67, 67);
     font-size: 16px;
     font-weight: 100;
     line-height: 19px;
@@ -38,7 +38,7 @@ body {
   
   .weather-app {
     padding: 20px;
-    border: 1px solid #dadde1;
+    border: 1px solid #6689b8;
     border-radius: 5px;
   }
  
@@ -80,19 +80,9 @@ body {
   .weather-temperature .active:hover {
     text-decoration: none;
   }
-  #footer {
-    font-size: 18px;
-    color: #ff0000;
-    margin-top: 10px;
-    text-align: center;
-  }
+  #small {
+    font-size: 80%;
+    font-weight: 400;
+}
   
-  #footer a {
-    color:#ff0000 ;
-    text-decoration: none;
-  }
-  
-  #footer a:hover {
-    text-decoration: underline;
-  }
-  
+   

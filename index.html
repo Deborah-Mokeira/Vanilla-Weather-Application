@@ -14,26 +14,29 @@
         <div class="weather-app-wrapper">
           <div class="weather-app">
             <div class="overview">
-              <h1 id="city"></h1>
+              <h1 id="city">Houston</h1>
               <ul>
-                <li>Last updated: <span id="date"></span></li>
-                <li id="description"></li>
+                <li>Friday<span id="date">3/3</span></li>
+                <li id="description">Clear</li>
               </ul>
             </div>
             <div class="row">
               <div class="col-6">
-                <div class="clearfix weather-temperature">
-                  <img src="" alt="Clear" id="icon" class="float-left" />
-                  <div class="float-left">
-                    <strong id="temperature"></strong
-                    ><span class="units"> °C</span>
+                <div class="d-flex weather-temperature">
+                    <img src="images/cloud_day-icon.png" alt="Clear" id="icon" />
+                    <div>
+                      <strong id="temperature"></strong
+                      >22<span class="units"> °C</span>
+                    </div>
                   </div>
+                  
                 </div>
               </div>
               <div class="col-6">
                 <ul>
-                  <li>Humidity: <span id="humidity"></span>%</li>
-                  <li>Wind: <span id="wind"></span> m/h</li>
+                    <li>Precipitation: <span id="Precipitation">0</span>%</li>
+                  <li>Humidity: <span id="humidity">76</span>%</li>
+                  <li>Wind-speed: <span id="wind">4</span> m/h</li>
                 </ul>
               </div>
             </div>

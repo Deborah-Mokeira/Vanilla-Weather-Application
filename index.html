@@ -34,7 +34,6 @@
               </div>
             </div>
           </form>
-       
           <div class="overview">
             <h1 id="city"></h1>
             <ul>
@@ -42,31 +41,48 @@
               <li id="description"></li>
             </ul>
           </div>
-          <div class="row">
-            <div class="col-6">
+          <div class="container">
+            <div class="row">
+              <div class="col-6">
                 <div class="d-flex weather-temperature">
-                    <img src="" alt="Clear" id="icon" />
-                    <div>
-                      <strong id="temperature"></strong
-                      ><span class="units"
-                      ><a href="#" id="celsius-link" class="active">°C</a> |
-                      <a href="#" id="fahrenheit-link">°F</a></span
-                    >
-                    </div>
+                  <img src="" alt="Clear" id="icon" />
+                  <div>
+                    <strong id="temperature"></strong>
+                    <span class="units">
+                      <a href="#" id="celsius-link" class="active">°C</a> |
+                      <a href="#" id="fahrenheit-link">°F</a>
+                    </span>
                   </div>
+                </div>
+              </div>
+              <div class="col-6">
+                <ul>
+                  <li>Humidity: <span id="humidity"></span>%</li>
+                  <li>Wind: <span id="wind"></span> km/h</li>
+                </ul>
               </div>
             </div>
-            <div class="col-6">
-              <ul>
-                <li>Humidity: <span id="humidity"></span>%</li>
-                <li>Wind: <span id="wind"></span> km/h</li>
-              </ul>
+          </div>
+          <div class="weather-forecast">
+            <div class="row">
+              <div class="col-2">
+                <div class="weather-forecast-date">Thu</div>
+                <img
+                  src="images/2682848_day_forecast_sun_sunny_weather_icon.png"
+                  alt=""
+                  width="42"
+                />
+                <div class="weather-forecast-temperatures">
+                  <span class="weather-forecast-temperature-max"> 18° </span>
+                  <span class="weather-forecast-temperature-min"> 12° </span>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-        <small id="footer">
+        <small>
           <a
-            href="https://github.com/Deborah-Mokeira/Vanilla-Weather-Application"
+            href="https://deborah-mokeira.github.io/Vanilla-Weather-Application/"
             target="_blank"
             >Open-source code</a
           >

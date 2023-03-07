@@ -20,8 +20,7 @@ body {
     list-style: none;
     margin: 0;
     padding: 0;
-  
-    color: rgb(87, 67, 67);
+    color: rgb(114, 51, 51);
     font-size: 16px;
     font-weight: 100;
     line-height: 19px;
@@ -45,15 +44,21 @@ body {
   .btn-primary{
     border-radius: 24px;
     color: #fff;
-    background-color: #4CAF50;
-    border: 1px solid #4CAF50;
+    background-color: #0b660e;
+    border: none
+   
   }
  
+ .btn-primary:hover{
+    background-color: rgb(17, 134, 62);
+    border-color: #0b660e;
+    
+ }
   .overview {
     margin-bottom: 20px;
   }
-  
-  .weather-temperature img {
+  s
+  .weather-temperature ,img {
     margin-right: 5px;
     height: 64px;
     width: 64px;
@@ -98,5 +103,20 @@ body {
     font-size: 13px;
 }
 .weather-forecast-temperatures-min{
-    opacity:0.5;
+    opacity:0.4;
+}
+small{
+  font-size: 18px;
+  
+}
+strong{
+  color: #0b660e;
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+  color: orangered;
+  cursor: pointer;
 }
